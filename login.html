@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+      integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Spotify mock</title>
+  </head>
+  <body>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
+      alt="Spotify logo"
+      class="spotify-logo"
+    />
+    <hr />
+    <h2 class="welcome-text">To continue, log in to Spotify.</h2>
+    <form>
+      <button type="submit" class="fb-button">
+        <span class="fb-butt-span">CONTINUE WITH FACEBOOK</span>
+      </button>
+      <br />
+
+      <button type="submit" class="apple-button">
+        <span class="apple-butt-span">CONTINUE WITH APPLE</span>
+      </button>
+      <br />
+
+      <button type="submit" class="google-button">
+        <span class="google-butt-span">CONTINUE WITH GOOGLE</span>
+      </button>
+
+      <div class="separator">or</div>
+
+      <label for="username" class="username-label"
+        >Email adress or username</label
+      ><br />
+      <input
+        class="uname-field"
+        type="text"
+        name="username"
+        id="username-fld"
+        value="Email adress or username"
+      /><br />
+
+      <label for="password" class="password">Password</label><br />
+      <input
+        type="password"
+        id="password-fld"
+        class="password-field"
+        value="Password"
+      /><br />
+
+      <a href="https://accounts.spotify.com/en/password-reset" class="forgot"
+        >Forgot your password?</a
+      >
+
+      <span class="remember">
+        <input type="checkbox" name="remember" id="remember-me" />
+        <label for="rememberme" class="rememberme">Remember me</label>
+      </span>
+
+      <input
+        type="submit"
+        name="login-button"
+        class="log"
+        id="login-butt"
+        value="LOG IN"
+      />
+
+      <div class="separator"></div>
+    </form>
+    <p class="no-acc">Don't have an account?</p>
+    <button type="submit" class="signup-button">
+      <span class="aignup-butt-span">SIGN UP FOR SPOTIFY</span>
+    </button>
+    <br />
+
+    <i class="fa-solid fa-user"></i>
+  </body>
+</html>
